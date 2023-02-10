@@ -1,0 +1,260 @@
+.navbar {
+    background-image: url('./images/SliderBg.png');
+    background-color: orange;
+    padding: 10%;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-link {
+    color: black;
+    margin-left: 25px;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.navbar-brand {
+    color: black;
+    width: 40%;
+    padding-left: -7%;
+}
+/* Slideshow section CSS */
+#slide1 {
+    padding-top: 5%;
+    height: 85vh;
+    background-image: url('./images/SliderBg.png');
+
+}
+#slide2 {
+    padding-top: 5%;
+    height: 85vh;
+    background-image: url('./images/SliderBg.png');
+}
+#slide3 {
+    padding-top: 5%;
+    height: 85vh;
+    background-image: url('./images/SliderBg.png');
+}
+#slideshow-area h4{
+    margin-top: 20%;
+    margin-left: 10%;
+    font-size: 1.1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    color: rgb(63, 32, 9);
+    border-style: dotted;
+    width: 68%;
+    padding:1%;
+}
+#slideshow-area h1 {
+    font-size: 450%;
+    margin-left: 10%;
+    letter-spacing: 4px;
+    font-weight: 800;
+    text-shadow:3px 3px white;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 0%;
+    width: 10%;
+    color: rgb(63, 32, 9);
+}
+#slideshow-area h3 {
+    margin-left : 10%;
+    margin-top: -3%;
+    font-size: 3.2rem;
+    color: rgb(63, 32, 9);
+    text-shadow:3px 3px white;
+    font-weight: 800;
+}
+#slideshow-area .col-md-6 {
+    /* background-color: coral; */
+    height: 50vh;
+}
+/* menu section CSS */
+#menu {
+    color: white;
+}
+#menu h4 {
+    font-size: 1.4rem;
+    letter-spacing: -1px;
+    font-weight: bold;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+#menu h1 {
+    padding-left: 5%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: -2px;
+}
+.menu1 {
+    background-image: url('./images/Burger1.png');
+    height: 55vh;
+    margin-bottom: 5%;
+    transition: .4s ease;
+    border-radius: 25px;
+}
+.menu1:hover{ 
+    background-color: rgb(80, 77, 77);
+    background-blend-mode: multiply;
+}
+.menu2 {
+    padding-top: 5%;
+    background-image: url('./images/Burger2.png');
+    background-repeat: no-repeat;
+    height: 40vh;
+    transition: .4s ease;
+    border-radius: 25px;
+}
+.menu2:hover{
+    background-position-x: center;
+}
+.menu3 {
+    margin-top: -15%;
+    background-image: url('./images/Burger3.png');
+    background-repeat: no-repeat;
+    height: 40vh;
+    transition: .4s ease;
+    border-radius: 25px;
+}
+.menu3:hover{
+    background-position-x: center;
+}
+/* Burger Order Section CSS */
+
+#order-section-area {
+    margin-top: 10%;
+    text-align: center;
+}
+#order-section-area h1 {
+    text-align: center;
+    color: rgb(63, 32, 9);
+    font-weight: 800;
+    font-size: 3.6rem;
+    margin-top: 2%;
+}
+#order-section-area h5 {
+    /* background-color: orange; */
+    color: rgb(63, 32, 9);
+    width: auto;
+    font-size: 1.6rem;
+
+}
+#order-1 {
+    margin-top: 13%;
+}
+#order-1 img {
+    width: 85%;
+}
+#order-1 .btn {
+    background-color: rgb(150, 29, 29);
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+}
+
+#order-2 {
+    margin-top: 5%;
+}
+#order-2 img {
+    width: 95%;
+}
+#order-2 .btn {
+    background-color: rgb(150, 29, 29);
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+}
+#order-3 {
+    margin-top: 13%;
+}
+#order-3     .btn {
+    background-color: rgb(150, 29, 29);
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+}
+#order-3 img {
+    width: 85%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#MainBox {
+    width: 90%;
+    box-shadow: 5px 0px 20px #888888;
+}
+
+#Box {
+    height: 80vh;
+    background-image: url(event_1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#Tablebox {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 0.8rem;
+}
+
+#tableBtn {
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgb(209, 34, 34);
+    border: none;
+    padding: 0.8rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+#TableSec {
+    position: relative;
+}
+
+#tablerow {
+    margin: 8rem 0 8rem;
+}
+
+#tableBurger {
+    height: 15vh;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+
+#tableBurger2 {
+    height: 30vh;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+}
+
+#tableBottle {
+    height: 40vh;
+    position: absolute;
+    left: 0%;
+    top: 20%;
+    padding: 10px;
+}
+
+#Footer {
+    /* background-color: rgba(0, 0, 0, 0); */
+    background-image: url(./images//LastBg.png);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: hard-light;
+}
+
+#footerContact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
